@@ -1,2 +1,10 @@
 Farid al rafi
 3KB01
+
+git clone .....
+git status
+git add .
+git commit -m "pesan"
+
+git pull
+git push
