@@ -19,3 +19,5 @@ perintah akan mendownload semua Repository ini.
         $ GIT BRANCH *Nama_anda*
 
         $ GIT PUSH ORIGIN *Nama_anda*
+
+3. Dengan ini anda sudah menjadi Kontributor pada Repository ini, tahap selanjutnya akan di bahas pada pertemuan selanjutnya.
