@@ -15,6 +15,7 @@ pastikan anda sudah menginstall git pada komputer anda, lalu buka command prompt
 perintah akan mendownload semua Repository ini.
 
 2. Piindah direktory dan buat branch baru
+
         $ GIT BRANCH *Nama_anda*
 
-       $ GIT PUSH ORIGIN *Nama_anda*
+        $ GIT PUSH ORIGIN *Nama_anda*
