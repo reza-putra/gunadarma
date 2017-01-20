@@ -1,9 +1,4 @@
-/* Website Template by freewebsitetemplates.com */
-<<<<<<< HEAD
-/*@font-face {
-=======
 @font-face {
->>>>>>> 0eb1a26... add pertemuan ke dua (chapter2)
 	font-family: 'poller_oneregular';
 	src: url('../fonts/pollerone/pollerone-webfont.eot');
 	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,13 +13,7 @@
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
-<<<<<<< HEAD
-}*/
-
-/*https://github.com/evo3cx/gunadarma*/
-=======
 }
->>>>>>> 0eb1a26... add pertemuan ke dua (chapter2)
 
 body {
 	background: #fff;
@@ -80,11 +69,7 @@ p a:hover {
 #header ul li a {
 	color: #252525;
 	display: inline-block;
-<<<<<<< HEAD
-	font-family: sans-serif;
-=======
 	font-family: "Arial Black", Gadget, sans-serif;
->>>>>>> 0eb1a26... add pertemuan ke dua (chapter2)
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -92,12 +77,6 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-<<<<<<< HEAD
-#header ul li a:hover,
-#header ul li.selected a {
-	color: #0ba39c;
-}
-=======
 #header ul li a:hover, #header ul li.selected a {
 	color: #0ba39c;
 }
@@ -428,4 +407,3 @@ p a:hover {
 #footer div ul li #pinterest:hover {
 	background-position: -44px -132px;
 }
->>>>>>> 0eb1a26... add pertemuan ke dua (chapter2)
