@@ -16,6 +16,8 @@
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
 }*/
 
+/*https://github.com/evo3cx/gunadarma*/
+
 body {
 	background: #fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -39,8 +41,6 @@ p a {
 p a:hover {
 	color: #898989;
 }
-
-
 #header {
 	margin: 0 auto;
 	padding: 44px 0 50px;
@@ -72,7 +72,7 @@ p a:hover {
 #header ul li a {
 	color: #252525;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -80,6 +80,7 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-#header ul li a:hover, #header ul li.selected a {
+#header ul li a:hover,
+#header ul li.selected a {
 	color: #0ba39c;
 }
