@@ -8,3 +8,9 @@ git commit -m "pesan"
 
 git pull
 git push
+
+git branch -b farid
+
+git checkout farid
+
+git push origin farid
