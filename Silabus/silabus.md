@@ -12,10 +12,12 @@ KONSEP DASAR WEBSITE
 	5.Pengenalan Software GIT
 
 B. Chapter 2
+
 	1.PENGENALAN HTML & CSS
 	2.PENGENALAN JAVASCRIPT
 
 C. Chapter 3
+
 	1.Menggunakan JavaScript
 	2.Variabel JavaScript
 	3.Operator JavaScript
@@ -23,6 +25,7 @@ C. Chapter 3
 
 
 D. Chapter 4
+
 	1.PENGENALAN PHP
 	2.Fungsi PHP
 	3.Server PHP
@@ -35,6 +38,7 @@ D. Chapter 4
 	10.Karakter, tipe data, konstanta, variabel dan operator PHP
 
 E. Chapter 5
+
 	1.KONTROL DALAM PHP
 		Pernyataan if
 		Pernyataan switch
@@ -44,23 +48,29 @@ E. Chapter 5
 		Pernyataan break
 		Pernyataan continue
 		Pernyataan exit
- 
+
 F. Chapter 6
+
 	1.PREDEFINED VARIABLE DAN MODULARISASI
 		Predefined Variable : $_GET , $_POST, $_SESSION
 		Modularisasi : Require, Include
 
 G. Chapter 7
+
 	1.PHP & MYSQL
 		mengambil data dari database MySQL
 		Membuat koneksi,
 		Melakukan CREATE , READ , UPDATE , DELETE
 
 H. Chapter 8
+
 	1.Tugas Akhir (Persentasi Kelompok)
-		Setiap kelompok diberi tugas untuk memuat sebuah website sederhana dalam waktu seminggu.
-Tema : 
-		E-Commerce
-		Administrasi Sekolah
-		Pembayaran Gaji
-		Penilaian Mahasiswa 
+		Setiap kelompok diberi tugas untuk memuat sebuah website
+		sederhana dalam waktu seminggu.
+
+Tema :
+
+		- E-Commerce,
+		- Administrasi Sekolah
+		- Pembayaran Gaji
+		- Penilaian Mahasiswa
