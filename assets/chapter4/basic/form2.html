@@ -1,0 +1,38 @@
+<html>
+<head>
+  <script language="JavaScript" type="text/JavaScript">
+    function hitung(){
+      var bilangan1 = parseFloat(document.formku.bil1.value);
+      var bilangan2 = parseFloat(document.formku.bil2.value);
+
+      var op = document.formku.operasi.value;
+      var hasil;
+
+      if (op == "jumlah"){
+         hasil = bilangan1 + bilangan2;
+      }else if (op == "kurang"){
+         hasil = bilangan1 - bilangan2;
+      }else if (op == "kali"){
+         hasil = bilangan1 * bilangan2;
+      }else if (op == "bagi"){
+         hasil = bilangan1 / bilangan2;
+      }
+      document.formku.hasil.value = hasil;
+    }
+  </script>
+</head>
+<body>
+  <h1>Kalkulator Sederhana</h1>
+  <form name="formku">
+    Bil Pertama <input type="text" name="bil1">
+    <select name="operasi" onchange="hitung()">
+      <option value="jumlah">Dijumlahkan</option>
+      <option value="kurang">Dikurangkan</option>
+      <option value="kali">Dikalikan</option>
+      <option value="bagi">Dibagi</option>
+    </select>
+    Bil Kedua
+    <input type="text" name="bil2"> = <input type="text" name="hasil">
+  </form>
+</body>
+</html>
