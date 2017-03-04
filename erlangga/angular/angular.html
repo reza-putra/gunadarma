@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="App">
+	<head>
+		<script scr="./js/angular.js"></script>
+		<script scr="./js/script.js"></script>
+	</head>
+	<body>
+		<div>
+			<div class="container" ng-controller="TasksController as vm">
+				<ul>
+					<li ng-repeat="value in vm.testInput track by $index">
+					{{value}}
+					</li>
+				</ul>
+			<input type="text" ng-model="vm.inputText">
+			{{vm.inputText}}
+			<input type="button" ng-click="vm.AddText()" value="add">
+			</div>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</html>
