@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+	
+	function baca(){
+	var nilai = document.formku.input.value;
+	alert("Andah telah memasukkan input:" + nilai);
+}
+
+</script>
+
+</head>
+<body>
+<h1>Baca Input</h1>
+<form> name="formku"
+Masukkan sebuah input <input type="text" name="input">
+<input type="button" name="button" value="ok" onclick="baca()">
+
+</form>
+</body>
+</html>

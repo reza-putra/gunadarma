@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+	<title>Coba </title>
+<script src="js/angular.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+<div class="container" ng-controller="TasksController as vm">
+<ul><li ng-repeat="value in vm.arraya track by $index">{{value}}</li></ul>
+
+<input type="text" ng-model="vm.Inputtext">
+<input type="button" ng-click="vm.AddText()"value="add">
+</div>
+</body>
+</html>
