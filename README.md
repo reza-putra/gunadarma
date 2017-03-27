@@ -26,3 +26,33 @@ perintah akan mendownload semua Repository ini.
 3. Dengan ini anda sudah menjadi Kontributor pada Repository ini, 
 
 Selanjutnya anda dapat bergabung ke setiap pertemuan kami setiap hari saptu jam 2 di Kampus D Gunadarma di ruangan D347
+
+TIM Application
+
+	1.Apkasi parkir berbasis oneline
+	Kelompok 1
+	Abdul Rojak  (back end)
+	Rangga (design)
+	Pria (Front End)
+
+	2.aplikasi web info kost
+	kelompok2
+	Bimo (Back end)
+	Erlangga(design)
+	Ari (design)
+	Egan
+	Erika
+
+	3.Perpus Finder
+	kelompok3
+	Pratama
+	Havelio
+	Anita
+	Trisandi
+
+	4.Pi
+	kelompok4
+	Hengky
+	Nabila 
+	Hanif
+	Boby
