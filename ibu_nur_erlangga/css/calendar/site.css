@@ -1,0 +1,24 @@
+button#datepicker-button {
+    margin-bottom: 3em;
+}
+
+.flow-element {
+    display: inline-block;
+    margin-right: 3em;
+    vertical-align: top;
+}
+.flow-element:last-child {
+    margin-right: 0;
+}
+.flow-element input {
+    margin-top: 0;
+}
+
+#container {
+    min-height: 15em;
+}
+.calendar {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
