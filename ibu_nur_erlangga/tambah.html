@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Tambah Data Transaksi</title>
+<body>
+	<h1> Tambah Data Transaksi </h1>
+	<form name="form1" method="post" action="entry.php">
+
+		<table id=table2>
+			<tr>
+				<td>Kode Transaksi  :  </td>
+				<td><input type="text" name="kode_transaksi" size="60"></td>
+			</tr>
+
+			<tr>
+				<td>Tanggal Transaksi  :  </td>
+				<td><input type="date" name="tanggal_transaksi" size="60"></td>
+			</tr>
+
+			<tr>
+				<td>Nama Pelanggan  :  </td>
+				<td><input type="text" name="nama_pembeli" size="60"></td>
+			</tr>
+
+			<tr>
+				<td>Total Transaksi  :  </td>
+				<td><input type="text" name="total_harga" size="60"></td>
+			</tr>
+
+			<tr>
+        		<td>Jenis Transaksi  :  </td>
+        		<td>	
+        		
+        		<input name="jenis_transaksi" type="radio" value="Tunai" checked="tunai">Tunai
+        		<input name="jenis_transaksi" type="radio" value="Kredit">Kredit
+        		
+        		<td>
+			</tr>
+			<tr>
+				<td><input value="Simpan" name="submit" type="submit"></td>
+			</tr>
+			<tr>
+				<td><input value="Ulangi" type="reset"></td>
+			</tr>
+			<tr>
+				<td><input value="Kembali" type="button"  onClick="self.history.back()"></td>
+			</tr>
+		</table>
+	</form>
+</body>
