@@ -1,13 +1,18 @@
 var App = angular.module('App', [])
 .controller('TasksController', TasksController);
 
-function TasksController() {
+function TasksController($http) {
 
   this.tasks = [
     'Feed the imaginary gold fish.',
     'Walk the non existant dog.',
     'Have a celebratory beer!'
   ];
+
+  $http.get("http://localhost/gunadarma/angular.php")
+  .then(function(resp){
+    console.log(resp);
+  });
 
   this.completedTasks = [
     'Start writing an example AngularJS todo app.',
