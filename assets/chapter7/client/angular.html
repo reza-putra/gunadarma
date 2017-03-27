@@ -13,12 +13,20 @@
 
           <h2>Remaining <small>&mdash; {{ vm.tasks.length }} / {{  vm.getTotalTasks() }} ({{  vm.calculatePercent( vm.tasks.length) }}%)</small></h2>
 
+          <!-- DATA DI CETAK -->
           <ul>
-            <li ng-repeat="task in  vm.tasks track by $index" class="task">{{  task }}<a ng-click=" vm.markAsComplete($index)">O</li>
+
+            <!-- MULAI PERULANGAN -->
+            <li 
+              ng-repeat="task in  list track by $index" 
+              class="task">{{ task.action }}</li>
+            <!-- STOP PERULANGAN -->
+
           </ul>
 
-          <form ng-submit=" vm.add( vm.newTask)">
 
+
+          <form ng-submit=" vm.add( vm.newTask)">
             <div class="form-group">
               <input ng-model="vm.newTask" type="text" class="form-control" placeholder="Type new task and hit enter">
             </div>
@@ -32,7 +40,7 @@
           <h2>Completed <small>&mdash; {{  vm.completedTasks.length }} / {{  vm.getTotalTasks() }} ({{  vm.calculatePercent( vm.completedTasks.length) }}%)</small></h2>
 
           <ul>
-            <li ng-repeat="task in  vm.completedTasks  track by $index" class="completed-task">{{  task }}<a ng-click=" vm.markAsIncomplete($index)"><i class="fa fa-undo"></i></a></li>
+            <li ng-repeat="task in  vm.completedTasks  track by $index" class="completed-task">{{  task }}</li>
           </ul>
 
         </div>

@@ -1,36 +1,49 @@
 var App = angular.module('App', [])
 .controller('TasksController', TasksController);
 
-function TasksController($http) {
+function TasksController($http, $scope) {
 
-  this.tasks = [
-    'Feed the imaginary gold fish.',
-    'Walk the non existant dog.',
-    'Have a celebratory beer!'
-  ];
+  this.tasks = [];
+  this.api = "http://localhost/gunadarma/angular";
 
-  $http.get("http://localhost/gunadarma/angular.php")
+  // Mengambil data dari database dengan method get
+  $http.get(this.api + "?method=get")
   .then(function(resp){
-    console.log(resp);
+    $scope.list = resp.data;
+    console.log($scope.list);
   });
 
-  this.completedTasks = [
-    'Start writing an example AngularJS todo app.',
-    'Add the ability to add new tasks.',
-    'Add the ability to mark tasks as completed.',
-    'Add the ability to undo completed tasks.',
-    'Finish writing an example AngularJS todo app.',
-    'Write my first CodePen.'
-  ];
-
-  this.add = function(task) {
+  // Function untuk menambahkan todo baru ke server
+  this.add = function(task, $index) {
     if ( task == '' || typeof task === 'undefined' ) {
       return false;
     }
 
-    this.tasks.push(task);
-    this.newTask = '';
+    var data = {
+      action: task,
+      done: false,
+    };
+
+    $http.get(this.api+"?method=post&&action="+task+"&&id="+this.getID())
+    .then( function(resp){
+      $scope.list.push(resp.data);
+      this.newTask = '';
+    })
   };
+
+  this.getID = function(){
+    var dt = new Date();
+    return dt.getMilliseconds();
+  }
+
+
+
+
+
+  this.completedTasks = [
+    "pertemuan 6 membahas php da mysql",
+    "pertmuan 5 membahas phh dasar",
+  ];
 
   this.markAsComplete = function(index) {
     var task = this.tasks[index];
